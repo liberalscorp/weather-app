@@ -1,0 +1,149 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px 25px;
+    flex:1;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+    height: 60px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.cols {
+    display: flex;
+    align-items: center;
+    
+}
+
+.cols img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .windy{
+    margin-top: -6 px;
+    font-size: 14px;
+
+}
+
+.weather {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast {
+    padding-top: 10px;
+    display: flex;
+}
+
+.forecast-day{
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #505050;
+    color: #000;
+    font-weight: 500;
+}
+
+.forecast-day img{
+    width: 100px;
+}
+
+
+.cols {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Add a margin to separate the columns */
+}
+
+.cols img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.cols div {
+    display: flex;
+    flex-direction: column;
+}
+
+.humidity,
+.windy {
+    margin-top: -6px; /* Remove the space before the humidity and wind elements */
+    font-size: 14px;
+}
+
+/* Additional styles to adjust the layout */
+.card {
+    width: 90%;
+    max-width: 470px;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    text-align: center;
+}

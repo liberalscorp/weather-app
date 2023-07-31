@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <!-- Javascript File-->
+        <script defer src="index.js"></script>
+        <!-- CSS File -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name." spellcheck="true">
+                <button> <img src="images/search.png"> </button>
+            </div>
+            <div class="error" style="display:none;">
+                <h3>City not found.</h3>
+            </div>
+        
+            <div class="weather" style="display:none;">
+                    <img src="images/clouds.png" alt="No pic available" class="weather-icon">
+                    <h1 class="temp">0 °C</h1>
+                    <h2 class="city">Dummy</h2>
+
+                    <div class="details">
+                        <div class="cols">
+                            <img src="images/wind.png">
+                            <div>
+                                <p class="windy">0 KM/H</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                        <div class="cols">
+                            <img src="images/humidity.png">
+                            <div>
+                                <p class="humidity">0%</p>
+                                <p>Humidity Level</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3 style="padding-top: 20px;">Next 3-day Forecast</h3>
+                    <div class="forecast">
+                        
+                        <div class="forecast-day">
+                            <img src="images/clouds.png" alt="Weather Icon">
+                            <p class="day">1</p>
+                            <p class="temp">0 °C</p>
+                            <p class="weather"></p>
+                        </div>
+                        <div class="forecast-day">
+                            <img src="images/clouds.png" alt="Weather Icon">
+                            <p class="day"></p>
+                            <p class="temp">0 °C</p>
+                            <p class="weather"></p>
+                        </div>
+                        <div class="forecast-day">
+                            <img src="images/clouds.png" alt="Weather Icon">
+                            <p class="day"></p>
+                            <p class="temp">0 °C</p>
+                            <p class="weather"></p>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </body>
+        
+</html>
